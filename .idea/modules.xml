@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-cloud-parent.iml" filepath="$PROJECT_DIR$/Spring-cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ron-consumer-movie/ron-consumer-movie.iml" filepath="$PROJECT_DIR$/ron-consumer-movie/ron-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ron-consumer-movie-feign/ron-consumer-movie-feign.iml" filepath="$PROJECT_DIR$/ron-consumer-movie-feign/ron-consumer-movie-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ron-discovery-eureka/ron-discovery-eureka.iml" filepath="$PROJECT_DIR$/ron-discovery-eureka/ron-discovery-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ron-movie-ribbon/ron-movie-ribbon.iml" filepath="$PROJECT_DIR$/ron-movie-ribbon/ron-movie-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ron-movie-ribbon-properties-customizing/ron-movie-ribbon-properties-customizing.iml" filepath="$PROJECT_DIR$/ron-movie-ribbon-properties-customizing/ron-movie-ribbon-properties-customizing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ron-movie-ribbon-without-eureka/ron-movie-ribbon-without-eureka.iml" filepath="$PROJECT_DIR$/ron-movie-ribbon-without-eureka/ron-movie-ribbon-without-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ron-provicer-user/ron-provicer-user.iml" filepath="$PROJECT_DIR$/ron-provicer-user/ron-provicer-user.iml" />
+    </modules>
+  </component>
+</project>

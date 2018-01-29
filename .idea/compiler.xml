@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ron-consumer-movie" />
+        <module name="ron-consumer-movie-feign" />
+        <module name="ron-discovery-eureka" />
+        <module name="ron-movie-ribbon" />
+        <module name="ron-movie-ribbon-properties-customizing" />
+        <module name="ron-movie-ribbon-without-eureka" />
+        <module name="ron-provicer-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ron-consumer-movie" target="1.8" />
+      <module name="ron-consumer-movie-feign" target="1.8" />
+      <module name="ron-discovery-eureka" target="1.8" />
+      <module name="ron-movie-ribbon" target="1.8" />
+      <module name="ron-movie-ribbon-properties-customizing" target="1.8" />
+      <module name="ron-movie-ribbon-without-eureka" target="1.8" />
+      <module name="ron-provicer-user" target="1.8" />
+      <module name="Spring-cloud-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
