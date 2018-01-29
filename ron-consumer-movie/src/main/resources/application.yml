@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ron-consumer-movie
+server:
+  port: 9001
+user:
+  userServicePath: http://localhost:9001/simple/
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://user:123456@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true

@@ -1,0 +1,36 @@
+server:
+  port: 8001
+
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+    com.ron.seekers: DEBUG
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/testSpringBoot?useUnicode=true&characterEncoding=UTF8&useSSL=false&generateSimpleParameterMetadata=true
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+
+    hibernate:
+      ddl-auto: none
+  application:
+    name: ron-provicer-user
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://user:123456@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
