@@ -17,6 +17,7 @@
         <module>ron-consumer-movie-feign</module>
         <module>ron-movie-ribbon</module>
         <module>ron-movie-ribbon-properties-customizing</module>
+        <module>ron-consumer-movie-feign-customizing</module>
     </modules>
     <packaging>pom</packaging>
 
