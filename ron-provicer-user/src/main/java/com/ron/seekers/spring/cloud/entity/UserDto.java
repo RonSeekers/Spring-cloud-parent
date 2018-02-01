@@ -60,4 +60,14 @@ public class UserDto {
     public void setBalance(BigDecimal balance) {
         this.balance = balance;
     }
+
+    public UserDto(int id,String username){
+        super();
+        this.id=id;
+        this.username=username;
+    }
+
+    public UserDto(){
+        super();
+    }
 }

@@ -7,7 +7,7 @@ logging:
     org.hibernate: INFO
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
-    com.ron.seekers: DEBUG
+    com.ron.seekers.spring.cloud: DEBUG
 
 
 spring:
@@ -33,4 +33,11 @@ eureka:
       defaultZone: http://user:123456@localhost:8761/eureka
   instance:
     prefer-ip-address: true
-    instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+    instanceId: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+    metadata-map:
+        zone: ABC
+        ron: BBC
+    lease-renewal-interval-in-seconds: 5
+    hostname: peer1
+    ip-address: 127.0.0.1
+ #   appname: user-service-haha

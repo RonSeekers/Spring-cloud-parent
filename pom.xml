@@ -18,6 +18,8 @@
         <module>ron-movie-ribbon</module>
         <module>ron-movie-ribbon-properties-customizing</module>
         <module>ron-consumer-movie-feign-customizing</module>
+        <module>ron-movie-eureka-ha</module>
+        <module>ron-movie-ribbon-test</module>
     </modules>
     <packaging>pom</packaging>
 
