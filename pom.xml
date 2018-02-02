@@ -24,6 +24,7 @@
         <module>ron-movie-ribbon-with-hystrix-propagation</module>
         <module>ron-consumer-movie-feign-with-hystrix</module>
         <module>ron-consumer-movie-feign-customizing-without-hystrix</module>
+        <module>ron-consumer-movie-feign-with-hystrix-factory</module>
     </modules>
     <packaging>pom</packaging>
 
