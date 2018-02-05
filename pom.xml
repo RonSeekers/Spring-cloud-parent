@@ -25,6 +25,8 @@
         <module>ron-consumer-movie-feign-with-hystrix</module>
         <module>ron-consumer-movie-feign-customizing-without-hystrix</module>
         <module>ron-consumer-movie-feign-with-hystrix-factory</module>
+        <module>ron-hystrix-dashboard</module>
+        <module>ron-hystrix-turbine</module>
     </modules>
     <packaging>pom</packaging>
 
