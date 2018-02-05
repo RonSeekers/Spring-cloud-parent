@@ -1,11 +1,10 @@
+
 spring:
   application:
-    name: ron-movie-ribbon-with-hystrix
-
+    name: ron-consumer-movie-ribbon-with-hystrix2
 server:
-  port: 8013
+  port: 8010
   context-path: /ribbon
-
 eureka:
   client:
     healthcheck:
@@ -15,5 +14,4 @@ eureka:
   instance:
     prefer-ip-address: true
     home-page-url-path: /ribbon
-
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000

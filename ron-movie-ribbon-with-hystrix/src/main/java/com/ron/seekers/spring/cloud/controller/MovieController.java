@@ -26,7 +26,7 @@ public class MovieController {
         // http://localhost:7900/simple/
         // VIP virtual IP
         // HAProxy Heartbeat
-        return this.restTemplate.getForObject("http://ron-provider-user/simple/" + id, UserDto.class);
+        return this.restTemplate.getForObject("http://RON-PROVICER-USER/simple/" + id, UserDto.class);
     }
 
     public UserDto findByIdFallBack(int id) {

@@ -1,0 +1,16 @@
+server:
+  port: 8014
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:123456@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: ron-hystrix-turbine
+ #   appname: user-service-haha
+turbine:
+  aggregator:
+    clusterConfig: RON-MOVIE-RIBBON-WITH-HYSTRIX
+  appConfig: ron-movie-ribbon-with-hystrix

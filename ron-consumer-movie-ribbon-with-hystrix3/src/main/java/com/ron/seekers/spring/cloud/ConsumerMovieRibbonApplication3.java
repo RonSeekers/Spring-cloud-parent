@@ -10,8 +10,8 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableEurekaClient
-//@EnableCircuitBreaker
-public class ConsumerMovieRibbonHystrixApplication {
+@EnableCircuitBreaker
+public class ConsumerMovieRibbonApplication3 {
 
   @Bean
   @LoadBalanced
@@ -20,6 +20,6 @@ public class ConsumerMovieRibbonHystrixApplication {
   }
 
   public static void main(String[] args) {
-    SpringApplication.run(ConsumerMovieRibbonHystrixApplication.class, args);
+    SpringApplication.run(ConsumerMovieRibbonApplication3.class, args);
   }
 }
